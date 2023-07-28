@@ -23,5 +23,13 @@ public class Main {
         for (String name : list) {
             count++;
             result.append(count).append(") ").append(name).append(" \n");
+        }
+        return result.toString();
+    }
 
+    public static void getOutput(String output){
+        System.out.println(output);
+    }
 }
+
+
