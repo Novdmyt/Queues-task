@@ -12,4 +12,9 @@ public class Main {
         data.add("rice");
         return data;
     }
+
+    public static LinkedList<String> getRemoveData(LinkedList<String> data){
+       data.poll();
+       return data;
+    }
 }
