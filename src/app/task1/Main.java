@@ -13,4 +13,9 @@ public class Main {
         data.add("rice");
         return data;
     }
+    public static Queue<String> getNewData(Queue<String> newData){
+        newData.add("kiwi");
+        return newData;
+    }
+
 }
