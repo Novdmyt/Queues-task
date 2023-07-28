@@ -17,5 +17,11 @@ public class Main {
         newData.add("kiwi");
         return newData;
     }
+    public static String showList(Queue<String> list){
+        StringBuilder result = new StringBuilder();
+        int count = 0;
+        for (String name : list) {
+            count++;
+            result.append(count).append(") ").append(name).append(" \n");
 
 }
