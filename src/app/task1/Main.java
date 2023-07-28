@@ -4,6 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Initial list:");
+        getOutput(showList( getData()));
+        System.out.println("Updated data:");
+        getOutput(showList(getNewData(getData())));
+    }
 
     public static Queue<String> getData(){
         Queue<String> data = new LinkedList<>();
