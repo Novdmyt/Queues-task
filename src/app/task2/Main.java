@@ -18,7 +18,7 @@ public class Main {
        data.poll();
        return data;
     }
-    public static String showList(Queue<String> list){
+    public static String showList(LinkedList<String> list){
         StringBuilder result = new StringBuilder();
         int count = 0;
         for (String name : list) {
