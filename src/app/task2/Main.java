@@ -5,6 +5,15 @@ import java.util.Queue;
 
 public class Main {
 
+   public static void main(String[] args) {
+
+        System.out.println("Initial list:");
+        getOutput(showList( getData()));
+        System.out.println("Updated data:");
+        getOutput(showList(getRemoveData(getData())));
+    }
+
+
     public static LinkedList<String> getData(){
         LinkedList<String> data = new LinkedList<>();
         data.add("apricot");
